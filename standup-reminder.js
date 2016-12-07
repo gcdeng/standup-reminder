@@ -12,7 +12,8 @@
     'use strict';
 
     // creat element
-    var nav = document.getElementsByClassName("gb_ue gb_uf")[0];
+    var gb = document.getElementById("gb");
+    var nav = gb.getElementsByTagName("div")[0];
     var stateDisplay = document.createElement("p");
     stateDisplay.style.marginLeft = "20px";
     stateDisplay.style.marginRight = "20px";
